@@ -10,7 +10,7 @@ double fun(double  x)
       t*=(-1.0)*x/n;
       f += t;
    }
-    while(fabs(t)>=1e-6);
+    while(fabs(t)>=1e-6);//满足题目需求
    return  f;
 }
 void main()
