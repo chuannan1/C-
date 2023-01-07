@@ -19,7 +19,7 @@ int fun(char *str, char *substr)
 	{
 		num++;
 	}
-	p++;//是指针指向下以位，达到下一个P[0]=现在的p[1]
+	p++;//是指针指向下以位，达到下一个P[0]=现在的p[1]。
   }
   return num;
 }
