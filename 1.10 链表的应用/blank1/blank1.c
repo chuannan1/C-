@@ -6,7 +6,7 @@ typedef struct node {
   struct node  *next;
 } NODE;
 void fun(NODE  *h)
-{ NODE  *p, *q;    int  t;
+{ NODE  *p, *q;    int  t;//h为头节点
 /**********found**********/
 p = h->next ;//使p指向第一个节点
   while (p) {
